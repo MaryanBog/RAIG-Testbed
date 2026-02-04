@@ -1,0 +1,53 @@
+# ===== RAIG Testbed =====
+
+# Build directories
+/build/
+build/
+build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Ninja
+.ninja_*
+rules.ninja
+build.ninja
+
+# Compilers / IDE
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+*.idb
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Telemetry & runtime artifacts (generated)
+telemetry*.jsonl
+*.jsonl
+*.log
+
+# Coverage / analysis
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
